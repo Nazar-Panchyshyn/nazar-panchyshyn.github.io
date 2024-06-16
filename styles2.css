@@ -1,0 +1,349 @@
+
+* {
+margin: 0;    
+}
+body {
+background-color: rgb(0, 121, 202);    
+display: inline-block;
+}
+.block1 {
+display: flex;
+background-color: white;  
+justify-content: center;
+
+position: sticky;
+top: 0;
+
+}
+.contacts {
+display: flex;
+padding: 30px;
+padding-left: 200px;
+margin-left: 20px;
+}
+.contacts p{
+margin-right: 40px;
+}
+.mainbtn{
+display: flex;
+}
+.mainbtn a {
+color: black;
+display: block;
+font-size: 20px;
+padding: 25px;
+text-decoration: none;
+
+
+}
+
+.mainbtn a:hover {
+background-color: rgb(40, 152, 226);    
+}
+.name {
+padding: 20px;
+}
+.name a {
+text-decoration: none;    
+color: black;
+}
+.social{
+padding: 15px;
+    
+}
+.facebook{
+padding-left:20px ;    
+padding-bottom: 11px;
+}
+.block2 {
+background-color: rgb(0, 121, 202);  
+font-size: 50px;    
+color: white;
+text-align: center;
+padding-top: 155px;
+padding-bottom: 175px;
+
+}
+.text2 {
+display: block;
+padding: 100px;
+
+}
+.logo {
+cursor: pointer;    
+}
+.btn {
+display: none;
+}
+
+.btndown{
+padding-top: 50px;    
+}
+@media(max-width: 1200px){
+    
+    
+    .btn {
+        font-size: 2em;
+        padding-inline: 20px;
+        padding-bottom: 3px;
+        border: none;
+        background-color: white;
+        display: block;
+        cursor: pointer;
+    
+        }
+    .mainbtn {
+    display: none;    
+    }
+    .drop:hover .mainbtn{
+    display: block;
+    position: absolute;  
+    background-color: white;  
+    }
+}
+.block3 {
+font-size: 30px;
+color: white;    
+padding-top: 160px;
+padding-bottom: 100px;
+}
+.services-text {
+display: block;   
+text-align: center;
+padding: 20px;
+padding-bottom: 100px;
+
+}
+.services {
+display: inline-block;    
+color: white;
+background-color: rgb(36, 34, 34, 0.377);
+margin-left: 10px;
+
+}
+.services p {    
+font-size: 20px;    
+background-color: rgb(48, 48, 48);    
+padding: 12px;
+padding-top: 10px;
+}
+.servicest {
+    display: inline-block;    
+    color: white;
+    background-color: rgb(36, 34, 34, 0.377);
+    margin-left: 10px;
+    
+    }
+    .servicest p {    
+        font-size: 20px;    
+        background-color: rgb(48, 48, 48);    
+        padding: 12px;
+        padding-top: 10px;
+        }    
+    .button-order {
+    background-color: rgb(48, 48, 48); 
+    padding-top: 30px;
+    text-align: center;
+    padding-right: 15px;
+     }
+     .button-order a {
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+        padding: 25px;
+        text-decoration: none;
+        background-color: rgb(0, 121, 202);
+        margin-bottom: 10px;
+     }
+     .buttont-order {
+        background-color: rgb(48, 48, 48); 
+        padding-top: 30px;
+        text-align: center;
+        padding-right: 15px;
+         }
+         .buttont-order a {
+            color: white;
+            display: inline-block;
+            font-size: 20px;
+            padding: 25px;
+            text-decoration: none;
+            background-color: rgb(0, 121, 202);
+            margin-bottom: 10px;
+         }
+         .button-order a:hover{
+            background-color: rgb(167, 142, 0);   
+            }
+         .buttont-order a:hover{
+         background-color: rgb(167, 142, 0);   
+         }
+         .buttontral-order a:hover{
+            background-color: rgb(167, 142, 0);   
+            }
+            .buttondumpt-order a:hover{
+                background-color: rgb(167, 142, 0);   
+                }
+         .servicestral {
+            display: inline-block;    
+            color: white;
+            background-color: rgb(36, 34, 34, 0.377);
+            margin-left: 10px;
+            
+            }
+            .servicestral p {    
+                font-size: 20px;    
+                background-color: rgb(48, 48, 48);    
+                padding: 12px;
+                padding-top: 10px;
+                }    
+            .buttontral-order {
+            background-color: rgb(48, 48, 48); 
+            padding-top: 30px;
+            text-align: center;
+            padding-right: 15px;
+             }
+             .buttontral-order a {
+                color: white;
+                display: inline-block;
+                font-size: 20px;
+                padding: 25px;
+                text-decoration: none;
+                background-color: rgb(0, 121, 202);
+                margin-bottom: 10px;
+             }
+             .servicesdumpt {
+                display: inline-block;    
+                color: white;
+                background-color: rgb(36, 34, 34, 0.377);
+                margin-left: 10px;
+                
+                }
+                .servicesdumpt p {    
+                    font-size: 20px;    
+                    background-color: rgb(48, 48, 48);    
+                    padding: 12px;
+                    padding-top: 10px;
+                    }    
+                .buttondumpt-order {
+                background-color: rgb(48, 48, 48); 
+                padding-top: 30px;
+                text-align: center;
+                padding-right: 15px;
+                 }
+                 .buttondumpt-order a {
+                    color: white;
+                    display: inline-block;
+                    font-size: 20px;
+                    padding: 25px;
+                    text-decoration: none;
+                    background-color: rgb(0, 121, 202);
+                    margin-bottom: 10px;
+                 }
+                .headtext{  
+                padding-top: 150px;
+                color: white;
+                text-align: center;
+                font-size: 30px;
+                background-color: rgb(0, 121, 202);    
+                }
+                .block4{
+                display: flex;
+                background-color: rgb(0, 121, 202);
+                }
+                .col {
+                width: 50%;    
+                }
+                .about-content {
+                display: flex;
+                flex-direction: column;
+                height: 100%;  
+                padding-bottom: 240px;  
+                padding-top: 90px;
+                }
+                .about-text1 {
+                background-color: rgb(167, 142, 0);
+                padding: 20px;
+                font-size: 20px;
+                color: white;
+                width: 500px;
+                margin-left: 410px;
+                
+                }
+                .about-photo {
+                padding-top: 90px;   
+                padding-left: 20px; 
+                }
+                .block5 {
+                display: block;   
+                padding: 20px;
+                background-color: white;
+              
+                }
+                .headtext5 {
+                text-align: center;   
+                font-size: 30px; 
+                color: rgb(0, 121, 202);
+                padding-top: 50px;
+                padding-bottom: 100px;
+                }
+               .text5 {
+               display: flex;
+               padding: 20px;         
+               }
+              .email5 {
+              padding-left: 100px;
+              padding-right: 50px;  
+              }
+              .emailp5 {
+              font-size: 30px;
+              color: rgb(0, 121, 202);  
+              }
+              .emailp5_2 {
+              padding-top: 10px;
+              font-size: 20px;  
+              color: rgb(0, 121, 202);
+             
+              }
+              .phone5{
+              padding-left: 100px;
+              padding-top: 20px;  
+              }
+              .phonep5 {
+             font-size: 30px;
+             color: rgb(0, 121, 202);
+              }
+              .phonep5_2{
+              padding-top: 10px;
+              font-size: 20px;  
+              color: rgb(0, 121, 202);
+           
+              }
+              .address {
+              padding-left: 20px;  
+              }
+              .addressp{
+              font-size: 30px;
+              color: rgb(0, 121, 202);  
+              }
+              .addressp2 {
+              padding-top: 10px;
+              font-size: 20px;  
+              color: rgb(0, 121, 202);  
+              }
+              .schedule {
+              padding-left: 20px;   
+              }
+              .schedulep {
+              padding-top:20px;  
+              font-size: 30px;
+              color: rgb(0, 121, 202);    
+              }
+              .schedulep2 {
+                padding-top: 10px;
+                font-size: 20px;  
+                color: rgb(0, 121, 202);    
+              }
+              .map {
+              padding-left: 500px;
+              margin-top: -25px;
+              }
+        
